@@ -24,7 +24,7 @@ To use this application, you can follow these steps:
 3. Start the Express server:
 
     ```bash
-    npm start
+    node index.js
     ```
 4. Make HTTP POST requests to the `/appointments` endpoint to retrieve appointment information. You need to provide valid user credentials (username and password) in the request body. Only users with the 'OWNER' role are authorized to access the data.
 
